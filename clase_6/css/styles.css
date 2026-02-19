@@ -1,0 +1,56 @@
+.caja-contenedora {
+    border: solid 5px black;
+    position: relative;
+    height: 800px;
+    width: 800px;
+}
+
+.caja-contenedora > div {
+    background-color: brown;
+    border-bottom: solid 20px black;
+    border-right: solid 20px black;
+    height: 110px;
+    width: 110px;
+}
+
+.cajita1 {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.cajita2 {
+    bottom: 0;
+    position: absolute;
+    right: 110px;
+}
+
+.cajita3 {
+    bottom: 0;
+    position: absolute;
+    right: 220px;
+}
+
+.cajita4 {
+    bottom: 0;
+    position: absolute;
+    right: 330px;
+}
+
+.cajita5 {
+    bottom: 0;
+    position: absolute;
+    right: 440px;
+}
+
+.cajita6 {
+    bottom: 110px;
+    position: absolute;
+    right: 0;
+}
+
+.cajita7 {
+    bottom: 110px;
+    position: absolute;
+    right: 0;
+}
